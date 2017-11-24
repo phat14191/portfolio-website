@@ -1,0 +1,26 @@
+.projects-section {
+    padding: 10vh 0;
+}
+.projects-row {
+    text-align: center;
+    width: 100%;
+}
+
+.projects-section .sbs-image {
+    padding: 0;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;;
+}
+.projects-section .sbs-image img {
+    max-width: 150%;
+}
+
+@media only screen and (max-width: 750px) {
+    .projects-section .sbs-description {
+        text-align: center;
+    }
+}

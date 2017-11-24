@@ -1,0 +1,32 @@
+.intro p {
+    font-family: 'Berkshire Swash', cursive;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: rgb(220, 220, 220);
+    margin-bottom: 25px;
+    border-radius: 5px;
+    margin: 8px 52px 10px -31px;
+    padding: 18px;
+    width: 100%;
+}
+
+.intro p:hover {
+    background-color: green;
+    color: yellow;
+}
+
+.gif img {
+    width: 400px;
+    height: auto;
+    padding: 30px 50px 0px 0px;
+}
+
+.gif img {
+	-webkit-filter: sepia(0);
+	filter: sepia(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.gif img:hover {
+	-webkit-filter: sepia(88%);
+	filter: sepia(88%);
+}

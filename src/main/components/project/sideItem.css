@@ -1,0 +1,37 @@
+.sbs-item {
+    margin: -35px 0;
+}
+.sbs-image {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: white;
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: 2px 2px 8px #888888;
+}
+.sbs-text {
+    display: inline-block;
+    direction: initial;
+    vertical-align: middle;
+    width: 48vw;
+    margin: 25px;
+}
+.sbs-description {
+    text-align: left;
+}
+.sbs-point-form-description {
+    text-align: initial;
+}
+.sbs-image img {
+    width: 13vw;
+}
+
+@media only screen and (max-width: 750px) {
+    .sbs-image img {
+        width: 80vw;
+    }
+    .sbs-text {
+        width: 90vw;
+        margin: 5px;
+    }
+}

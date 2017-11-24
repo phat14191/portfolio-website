@@ -1,0 +1,45 @@
+.footer {
+    background-color: rgb(233, 246, 242);
+    border-top: 1px solid #E7E7E7;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 35px;
+    width: 100%
+}
+
+.footer a {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    padding: 40px 40px 2px 44px;
+}
+
+/*bounce icon footer*/
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-5px);
+		transform: translateY(-5px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+.footer a:hover img {
+
+	animation: bounce 1s;
+}
+
+.footer img {
+    width: 30px;
+    height: 30px;
+}

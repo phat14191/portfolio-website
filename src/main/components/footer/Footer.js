@@ -11,7 +11,7 @@ function Footer() {
       <div className="footer">
           <a href="https://www.linkedin.com/in/phatnguyen141/"><img src={linkedinLogo}/></a>
           <a href="mailto:pvnguyen141@gmail.com"><img src={mailLogo}/></a>
-          <a href="https://github.com/phat14191"><img src={resumeLogo}/></a>
+          <a href="https://drive.google.com/file/d/1eWV2KmjoSWqig-M4SnSILtI3keKtVSul/view?usp=sharing"><img src={resumeLogo}/></a>
           <a href="https://github.com/phat14191"><img src={githubLogo}/></a>
 
       </div>

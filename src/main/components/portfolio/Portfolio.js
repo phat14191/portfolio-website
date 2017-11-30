@@ -106,7 +106,7 @@ class Portfolio extends React.Component {
                   </div>
                   <div className="timeline-entry">
                   <Card expanded={this.state.expanded2} onExpandChange={this.handleExpandChange2}>
-                      <CardHeader title="Udemy Online Certificate " subtitle="ReactJS, redux and JavaScript"
+                      <CardHeader title="Udemy Online Courses (80+ hours)" subtitle="ReactJS, redux and JavaScript"
                         actAsExpander={true} showExpandableButton={true}/>
                       <CardText expandable={true}>
                           Since June 2017. Learn React or dive deeper into it. Learn the theory, solve assignments, practice in demo projects and build one big application which is improved throughout and learn detailted the Essentials of JavaScript!
@@ -135,7 +135,7 @@ class Portfolio extends React.Component {
                 </div>
                 <div className="timeline-entry">
                   <Card expanded={this.state.expanded3} onExpandChange={this.handleExpandChange3}>
-                      <CardHeader title="Treehouse, Codecademy, Code School" subtitle="Online coding courses in JavaScript"
+                      <CardHeader title="Treehouse, Codecademy, Code School (40+ hours)" subtitle="Online coding courses in JavaScript"
                         actAsExpander={true} showExpandableButton={true}/>
                       <CardText expandable={true}>
                           Since     March	2017. Learn Web Design and Coding.

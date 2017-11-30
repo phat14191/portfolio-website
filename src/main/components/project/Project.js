@@ -4,7 +4,7 @@ import SideItem from './SideItem';
 
 import Portfolio from './imgProjects/Portfolio.png';
 import NodeJS from './imgProjects/NodeJS.png';
-import Vocabulary from './imgProjects/tree-volcabulary.jpg';
+import Vocabulary from './imgProjects/vocabulary.jpg';
 import APIproject from './imgProjects/Api.png';
 
 const projects = [

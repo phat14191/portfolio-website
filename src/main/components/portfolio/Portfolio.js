@@ -7,10 +7,21 @@ import {
 import Chip from 'material-ui/Chip';
 import './portfolio.css';
 
-class Education extends React.Component {
+import reactLogo from './images/react';
+import reduxLogo from './images/redux.png';
+import jsLogo from './images/js.png';
+import htmlLogo from './images/HTML.png';
+import cssLogo from './images/css.png';
+import gitLogo from './images/git.png';
+import nodejsLogo from './images/nodejs.png';
+import mongodbLogo from './images/mongodb.png';
+import expressLogo from './images/express2.svg';
+import bootstrapLogo from './images/bootstrap.png';
+import jQueryLogo from './images/jQuery.gif';
+
+class Portfolio extends React.Component {
     constructor(props) {
         super(props);
-
         this.state = {
           expanded1: false,
           expanded2: false,
@@ -155,17 +166,17 @@ class Education extends React.Component {
                 </div>
                 <div className="skills-container">
                     <div className="bottom-nav">
-                    <a><img src="https://wmira.gallerycdn.vsassets.io/extensions/wmira/react-playground-vscode/0.0.11/1494599205180/Microsoft.VisualStudio.Services.Icons.Default"/></a>
-                    <a><img src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png"/></a>
-                    <a><img src="https://vignette.wikia.nocookie.net/dreadnought/images/f/fd/Js-logo.png/revision/latest?cb=20160509122720"/></a>
-                    <a><img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png"/></a>
-                    <a><img src="http://www.blackbirdsolutions.com.au/sites/default/files/styles/medium/public/blog/css3-logo.png?itok=r8kt8WZA"/></a>
-                    <a><img src="https://townhack.github.io/git-101/img/git-logo.png"/></a>
-                    <a><img src="https://www.techuz.com/wp-content/themes/techuz/images/nodejs-icon.png"/></a>
-                    <a><img src="https://broadwayinfosys.com/uploads/courses/mongodb.png"/></a>
-                    <a><img src="https://camo.githubusercontent.com/b0c9dc0e2f5bcd190403159a24d4a541e496e30a/68747470733a2f2f636f6c69676f2e696f2f696d616765732f657870726573732e737667"/></a>
-                    <a><img src="http://getbootstrap.com/assets/img/bootstrap-stack.png"/></a>
-                    <a><img src="http://precision-software.com/wp-content/uploads/2014/04/jQurery.gif"/></a>
+                    <a><img src={reactLogo}/></a>
+                    <a><img src={reduxLogo}/></a>
+                    <a><img src={jsLogo}/></a>
+                    <a><img src={htmlLogo}/></a>
+                    <a><img src={cssLogo}/></a>
+                    <a><img src={gitLogo}/></a>
+                    <a><img src={nodejsLogo}/></a>
+                    <a><img src={mongodbLogo}/></a>
+                    <a><img src={expressLogo}/></a>
+                    <a><img src={bootstrapLogo}/></a>
+                    <a><img src={jQueryLogo}/></a>
                   </div>
                 </div>
             </div>
@@ -173,4 +184,4 @@ class Education extends React.Component {
     }
 }
 
-export default Education;
+export default Portfolio;

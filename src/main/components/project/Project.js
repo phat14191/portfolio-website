@@ -3,7 +3,7 @@ import './project.css';
 import SideItem from './SideItem';
 
 import Portfolio from './imgProjects/Portfolio.png';
-import CountLetterNoSpace from './imgProjects/DisplayCount.png';
+import NodeJS from './imgProjects/NodeJS.png';
 import Vocabulary from './imgProjects/tree-volcabulary.jpg';
 import APIproject from './imgProjects/Api.png';
 
@@ -33,11 +33,11 @@ const projects = [
     isLayoutReversed: false
   },
   {
-    itemName: "Display count letter no space",
-    tags: ["JavaScript", "HTML", "CSS", "jQuery"],
-    description: "Make random input can take any numbers and string with space, they will count how many they are without space.",
-    imageUrl: CountLetterNoSpace,
-    itemUrl: "https://github.com/phat14191/Display-count-letter-noSpace",
+    itemName: "Penguins Vs Communists Project",
+    tags: ["NodeJS", "JavaScript callbacks", "Logic programming"],
+    description: "Understanding functional programming concepts, objects/associative arrays, constructors by using NodeJS.",
+    imageUrl: NodeJS,
+    itemUrl: "https://github.com/phat14191/Penguins-Vs-Communists-",
     isLayoutReversed: true
   }
 ];

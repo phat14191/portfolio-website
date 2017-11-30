@@ -82,15 +82,16 @@
 
 .projects-section .sbs-image {
     padding: 0;
-    width: 125px;
-    height: 125px;
+    width: 190px;
+    height: 190px;
     overflow: hidden;
     -webkit-border-radius: 999px;
     -moz-border-radius: 999px;
     border-radius: 999px;;
 }
 .projects-section .sbs-image img {
-    max-width: 150%;
+    max-width: 100%;
+    min-width: 100%;
 }
 .hr-divider :last-child {
     display: none;

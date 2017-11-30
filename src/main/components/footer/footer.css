@@ -43,3 +43,30 @@
     width: 30px;
     height: 30px;
 }
+
+@media (max-width: 500px) {
+    .footer {
+        background-color: #e6f3ff;
+        border-top: 1px solid #E7E7E7;
+        text-align: center;
+        padding: 20px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        height: 20px;
+        width: 100%
+    }
+
+    .footer img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .footer a {
+    	opacity: 1;
+    	-webkit-transition: .3s ease-in-out;
+    	transition: .3s ease-in-out;
+        padding: 40px 30px 2px 0px;
+        margin-left: 0px;
+    }
+}

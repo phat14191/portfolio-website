@@ -18,7 +18,7 @@ const projects = [
     isLayoutReversed: false
   },
   {
-    itemName: "Quizz App Project",
+    itemName: "Quiz App Project",
     tags: ["Object Oriented Programming", "JavaScript", "HTML", "CSS", "jQuery", "Bootstrap", ],
     description: "Build a set of Model (read data) objects that represent the questions for the quiz, a Controller (read logic) object that handles the basic actions involved in a quiz and a view (read presentation) objects that handle interacting with the DOM of the webpage. The interactions between Model, View, and Controller Objects.",
     imageUrl: QApp,

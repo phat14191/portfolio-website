@@ -49,6 +49,7 @@ const projects = [
     tags: ["NodeJS", "JavaScript callbacks", "Logic programming"],
     description: "Understanding functional programming concepts, objects/associative arrays, constructors by using NodeJS.",
     imageUrl: NodeJS,
+    pageUrl: "https://s3-us-west-1.amazonaws.com/phat14191/ComunistVSPenguins.png",
     itemUrl: "https://github.com/phat14191/Penguins-Vs-Communists-",
     isLayoutReversed: false
   }

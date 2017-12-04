@@ -5,11 +5,11 @@ These are the files used for my web developer portfolio site. The site also demo
 ## Table of contents
 
 - [Demo](#demo)
-- [My Code](#mycode)
+- [Take a look my code](#mycode)
 
 ## Demo
 
-For the live version of this portfolio, check out <https://my-portfolio-phat.firebaseapp.com/>!
+For the live version of this portfolio, check out <https://my-portfolio-phat.firebaseapp.com/>
 
 ## Take a look my code
 

@@ -12,7 +12,7 @@ export default class SideBySideItem extends Component {
           <img src={this.props.imageUrl} alt={this.props.itemName} />
         </a>
         <div className="sbs-text">
-          <h2 className="sbs-title">{this.props.itemName}</h2>
+          <h2 className="sbs-title"><a href={this.props.pageUrl}>{this.props.itemName} </a></h2>
           {this.renderTags()}
           <h4 className="sbs-subheader">{this.props.subheader}</h4>
           <div className="sbs-description">{this.props.description}</div>
@@ -55,5 +55,6 @@ SideBySideItem.propTypes = {
   pointFormDescription: PropTypes.array,
   imageUrl: PropTypes.string,
   itemUrl: PropTypes.string,
-  isLayoutReversed: PropTypes.bool
+  isLayoutReversed: PropTypes.bool,
+  pageUrl: PropTypes.string
 };

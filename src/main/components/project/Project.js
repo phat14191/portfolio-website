@@ -41,6 +41,7 @@ const projects = [
     description: "Understanding JSON, AJAX, and calling an API. Type Github user name, click the button, it will load your profile picture, information on Github and showing some followers.",
     imageUrl: APIproject,
     itemUrl: "https://github.com/phat14191/Call-an-API-Activity",
+    pageUrl: "https://phat14191.github.io/Call-an-API-Activity/",
     isLayoutReversed: true
   },
   {

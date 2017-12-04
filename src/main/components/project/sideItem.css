@@ -1,6 +1,7 @@
 .sbs-item {
     margin: -35px 0;
 }
+
 .sbs-image {
     display: inline-block;
     vertical-align: middle;
@@ -9,6 +10,7 @@
     padding: 10px;
     box-shadow: 2px 2px 8px #888888;
 }
+
 .sbs-text {
     display: inline-block;
     direction: initial;
@@ -16,12 +18,25 @@
     width: 35vw;
     margin: 25px;
 }
+
+.sbs-title a {
+    text-decoration: none;
+    color: blue;
+}
+
+.sbs-title a:hover {
+    text-decoration: none;
+    color: orange;
+}
+
 .sbs-description {
     text-align: left;
 }
+
 .sbs-point-form-description {
     text-align: initial;
 }
+
 .sbs-image img {
     width: 13vw;
 }

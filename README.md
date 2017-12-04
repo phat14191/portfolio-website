@@ -2,11 +2,6 @@
 
 These are the files used for my web developer portfolio site. The site also demonstrates the use of ReactJS, JavaSript, HTML, CSS, jQuery, responsive design, React Router, React Scripts, React Tap Event, Material UI, Typed.js.
 
-## Table of contents
-
-- [Demo](#demo)
-- [Take a look my code](#mycode)
-
 ## Demo
 
 For the live version of this portfolio, check out <https://my-portfolio-phat.firebaseapp.com/>

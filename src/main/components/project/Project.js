@@ -23,7 +23,7 @@ const projects = [
     description: "Build a set of Model (read data) objects that represent the questions for the quiz, a Controller (read logic) object that handles the basic actions involved in a quiz and a view (read presentation) objects that handle interacting with the DOM of the webpage. The interactions between Model, View, and Controller Objects.",
     imageUrl: QApp,
     itemUrl: "https://github.com/phat14191/QuizzApp",
-    isLayoutReversed: false
+    isLayoutReversed: true
   },
   {
     itemName: "Learn Language",
@@ -31,7 +31,7 @@ const projects = [
     description: "Built a app in React that allows users to sign in, login, logout, view their profiles, and add/remove vocabulary to their list. Store out user info in state. Store our authorization token in Local Storage so that even if we refresh the page, we don't lose it with database MongoDB.",
     imageUrl: Vocabulary,
     itemUrl: "https://github.com/vschool-september-2017/learn-language",
-    isLayoutReversed: true
+    isLayoutReversed: false
   },
   {
     itemName: "Call an API Activity!",
@@ -39,7 +39,7 @@ const projects = [
     description: "Understanding JSON, AJAX, and calling an API. Type Github user name, click the button, it will load your profile picture, information on Github and showing some followers.",
     imageUrl: APIproject,
     itemUrl: "https://github.com/phat14191/Call-an-API-Activity",
-    isLayoutReversed: false
+    isLayoutReversed: true
   },
   {
     itemName: "Penguins Vs Communists Project",
@@ -47,7 +47,7 @@ const projects = [
     description: "Understanding functional programming concepts, objects/associative arrays, constructors by using NodeJS.",
     imageUrl: NodeJS,
     itemUrl: "https://github.com/phat14191/Penguins-Vs-Communists-",
-    isLayoutReversed: true
+    isLayoutReversed: false
   }
 ];
 

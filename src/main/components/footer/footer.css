@@ -6,7 +6,7 @@
     position: fixed;
     left: 0;
     bottom: 0;
-    height: 35px;
+    height: 60px;
     width: 100%
 }
 
@@ -40,8 +40,8 @@
 }
 
 .footer img {
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
 }
 
 @media (max-width: 500px) {
@@ -58,8 +58,8 @@
     }
 
     .footer img {
-        width: 15px;
-        height: 15px;
+        width: 20px;
+        height: 20px;
     }
 
     .footer a {

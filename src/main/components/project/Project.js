@@ -6,6 +6,7 @@ import Portfolio from './imgProjects/Portfolio.png';
 import NodeJS from './imgProjects/NodeJS.png';
 import Vocabulary from './imgProjects/vocabulary.jpg';
 import APIproject from './imgProjects/Api.png';
+import QApp from './imgProjects/QApp.jpg';
 
 const projects = [
   {
@@ -13,7 +14,15 @@ const projects = [
     tags: ["ReactJS", "JavaScript", "React Router", "React Scripts", "React Tap Event", "Material UI", "Typed.js", "Responsive"],
     description: "Built a portfolio react website with all my passion!",
     imageUrl: Portfolio,
-    itemUrl: "https://github.com/vschool-september-2017/learn-language",
+    itemUrl: "https://github.com/phat14191/portfolio-website",
+    isLayoutReversed: false
+  },
+  {
+    itemName: "Quizz App Project",
+    tags: ["Object Oriented Programming", "JavaScript", "HTML", "CSS", "jQuery", "Bootstrap", ],
+    description: "Build a set of Model (read data) objects that represent the questions for the quiz, a Controller (read logic) object that handles the basic actions involved in a quiz and a view (read presentation) objects that handle interacting with the DOM of the webpage. The interactions between Model, View, and Controller Objects.",
+    imageUrl: QApp,
+    itemUrl: "https://github.com/phat14191/QuizzApp",
     isLayoutReversed: false
   },
   {

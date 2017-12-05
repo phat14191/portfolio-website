@@ -14,9 +14,8 @@ These are the files used for my web developer portfolio site. The site also demo
 
 For the live version of this portfolio, check out <https://my-portfolio-phat.firebaseapp.com/>
 
-## Take a look my code
+## Setup instructions
 
-The files used to create this portfolio, [Take a look my code](git@github.com:phat14191/portfolio-website.git).
 1) git clone https://github.com/phat14191/portfolio-website.git
 2) cd portfolio-website
 3) npm install

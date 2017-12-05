@@ -7,6 +7,7 @@ import NodeJS from './imgProjects/NodeJS.png';
 import Vocabulary from './imgProjects/vocabulary.jpg';
 import APIproject from './imgProjects/Api.png';
 import QApp from './imgProjects/QApp.jpg';
+import Blackjack from './imgProjects/blackjacklogo.png';
 
 const projects = [
   {
@@ -16,6 +17,15 @@ const projects = [
     imageUrl: Portfolio,
     itemUrl: "https://github.com/phat14191/portfolio-website",
     pageUrl: "https://my-portfolio-phat.firebaseapp.com/",
+    isLayoutReversed: true
+  },
+  {
+    itemName: "BlackJack Game Card",
+    tags: ["JavaScript", "Prototype Object", "Logic Programming", "HTML", "CSS", "jQuery", "Bootstrap"],
+    description: "Built a BlackJack Game Card App with logic programming, prototype object base on JavaScript language.",
+    imageUrl: Blackjack,
+    itemUrl: "https://github.com/phat14191/blackJack-javaScript",
+    pageUrl: "https://phat14191.github.io/blackJack-javaScript/",
     isLayoutReversed: false
   },
   {
@@ -32,6 +42,7 @@ const projects = [
     tags: ["ReactJS", "Redux", "Route", "JavaScript", "JSON Web Token", "API", "JWT", "NodeJs", "Token Auth in Express", "MongoDB noSQL", "Pair Project"],
     description: "Built a app in React that allows users to sign in, login, logout, view their profiles, and add/remove vocabulary to their list. Store out user info in state. Store our authorization token in Local Storage so that even if we refresh the page, we don't lose it with database MongoDB.",
     imageUrl: Vocabulary,
+    pageUrl: "https://github.com/vschool-september-2017/learn-language",
     itemUrl: "https://github.com/vschool-september-2017/learn-language",
     isLayoutReversed: false
   },

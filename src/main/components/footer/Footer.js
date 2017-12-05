@@ -5,15 +5,19 @@ import mailLogo from './images/mail.png';
 import resumeLogo from './images/resume.png';
 import githubLogo from './images/github.png';
 
+const Linkedin = 'https://www.linkedin.com/in/phatnguyen141/';
+const MailTo = 'mailto:pvnguyen141@gmail.com';
+const Resume = 'https://s3-us-west-1.amazonaws.com/phat14191/PhatResume.pdf';
+const Github = 'https://github.com/phat14191';
+
 function Footer() {
   return (
     <div>
       <div className="footer">
-          <a href="https://www.linkedin.com/in/phatnguyen141/"><img src={linkedinLogo}/></a>
-          <a href="mailto:pvnguyen141@gmail.com"><img src={mailLogo}/></a>
-          <a href="https://drive.google.com/file/d/1eWV2KmjoSWqig-M4SnSILtI3keKtVSul/view?usp=sharing"><img src={resumeLogo}/></a>
-          <a href="https://github.com/phat14191"><img src={githubLogo}/></a>
-
+          <a href={Linkedin}><img src={linkedinLogo}/></a>
+          <a href={MailTo}><img src={mailLogo}/></a>
+          <a href={Resume}><img src={resumeLogo}/></a>
+          <a href={Github}><img src={githubLogo}/></a>
       </div>
     </div>
   )

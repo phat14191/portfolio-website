@@ -8,8 +8,11 @@ export default class SideBySideItem extends Component {
   render() {
     return (
       <div className="sbs-item" style={this.getLayoutDirection()}>
-        <a className="sbs-image" href={this.props.itemUrl}>
+        <a className="sbs-image container" href={this.props.itemUrl}>
           <img src={this.props.imageUrl} alt={this.props.itemName} />
+        <div class="middle">
+            <div class="text">Github</div>
+        </div>
         </a>
         <div className="sbs-text">
           <h2 className="sbs-title"><a href={this.props.pageUrl}>{this.props.itemName} </a></h2>

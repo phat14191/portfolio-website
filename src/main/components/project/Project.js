@@ -42,7 +42,7 @@ const projects = [
     tags: ["ReactJS", "Redux", "Route", "JavaScript", "JSON Web Token", "API", "JWT", "NodeJs", "Token Auth in Express", "MongoDB noSQL", "Pair Programming Project"],
     description: "Vocabulary application where users can sign up, login, logout, view their profiles, and add/remove vocabulary words to lists. User stored in info in state and authorization token stored in Local Storage so that even if we refresh the page, we don't lose it with database MongoDB.",
     imageUrl: Vocabulary,
-    pageUrl: "https://github.com/vschool-september-2017/learn-language",
+    pageUrl: "https://phat123.herokuapp.com/",
     itemUrl: "https://github.com/vschool-september-2017/learn-language",
     isLayoutReversed: false
   },

@@ -64,10 +64,11 @@ class Portfolio extends React.Component {
               <h2 className="headline">Experience & Education</h2>
                   <div className="timeline-entry">
                     <Card expanded={this.state.expanded1} onExpandChange={this.handleExpandChange}>
-                        <CardHeader title="Certificate of V-School Bootcamp" subtitle="Full-Stack JavaScript Web Development"
+                        <CardHeader title="Certificate of Full Stack JavaScript Web Development at V-School" subtitle="Full Stack Programming, Problem Solving, Troubleshooting.
+"
                           actAsExpander={true} showExpandableButton={true}/>
                         <CardText expandable={true}>
-                            Since	September	2017. Programming, Problem Solving, Troubleshooting.
+                            September - November 2017
                             <br/><br/>
                               <div className="timeline-entries">
                                 <div className="timeline-entry-chip">
@@ -98,7 +99,7 @@ class Portfolio extends React.Component {
                                   <Chip>Express</Chip>
                                 </div>
                                 <div className="timeline-entry-chip">
-                                  <Chip>Unit Testing Mocha</Chip>
+                                  <Chip>Mocha Unit Test</Chip>
                                 </div>
                               </div>
                         </CardText>
@@ -109,7 +110,7 @@ class Portfolio extends React.Component {
                       <CardHeader title="Udemy Online Courses (80+ hours)" subtitle="ReactJS, redux and JavaScript"
                         actAsExpander={true} showExpandableButton={true}/>
                       <CardText expandable={true}>
-                          Since June 2017. Learn React or dive deeper into it. Learn the theory, solve assignments, practice in demo projects and build one big application which is improved throughout and learn detailted the Essentials of JavaScript!
+                          June 2017 - Present. Deep dive into React including theory, and small assignments, culminating in a final application. Strong focus on detailed JavaScript essentials.
                           <div className="timeline-entries">
                             <div className="timeline-entry-chip">
                               <Chip>React & Redux</Chip>
@@ -127,7 +128,7 @@ class Portfolio extends React.Component {
                               <Chip>Webpack</Chip>
                             </div>
                             <div className="timeline-entry-chip">
-                              <Chip>Css modules</Chip>
+                              <Chip>CSS modules</Chip>
                             </div>
                           </div>
                       </CardText>
@@ -138,7 +139,7 @@ class Portfolio extends React.Component {
                       <CardHeader title="Treehouse, Codecademy, Code School (40+ hours)" subtitle="Online coding courses in JavaScript"
                         actAsExpander={true} showExpandableButton={true}/>
                       <CardText expandable={true}>
-                          Since     March	2017. Learn Web Design and Coding.
+                          March 2017 - Present. Online JavaScript courses.
 
                           <div className="timeline-entries">
                             <div className="timeline-entry-chip">

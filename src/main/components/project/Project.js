@@ -13,25 +13,25 @@ const projects = [
   {
     itemName: "My Portfolio",
     tags: ["ReactJS", "JavaScript", "React Router", "React Scripts", "React Tap Event", "Material UI", "Typed.js", "Responsive"],
-    description: "Built a portfolio react website with all my passion!",
+    description: "Portfolio website featuring the work I’m passionate about!",
     imageUrl: Portfolio,
     itemUrl: "https://github.com/phat14191/portfolio-website",
     pageUrl: "https://my-portfolio-phat.firebaseapp.com/",
     isLayoutReversed: true
   },
   {
-    itemName: "BlackJack Game Card",
-    tags: ["JavaScript", "Prototype Object", "Logic Programming", "HTML", "CSS", "jQuery", "Bootstrap"],
-    description: "Built a BlackJack Game Card App with logic programming, prototype object base on JavaScript language.",
+    itemName: "Black Jack Card Game",
+    tags: ["JavaScript", "Prototype", "Object", "Logic Programming", "HTML", "CSS", "jQuery", "Bootstrap"],
+    description: "JavaScript Black Jack Card Game Application with logic programming, prototypes, and objects.",
     imageUrl: Blackjack,
     itemUrl: "https://github.com/phat14191/blackJack-javaScript",
     pageUrl: "https://phat14191.github.io/blackJack-javaScript/",
     isLayoutReversed: false
   },
   {
-    itemName: "Quiz App Project",
+    itemName: "Quiz App",
     tags: ["Object Oriented Programming", "JavaScript", "HTML", "CSS", "jQuery", "Bootstrap", ],
-    description: "Build a set of Model (read data) objects that represent the questions for the quiz, a Controller (read logic) object that handles the basic actions involved in a quiz and a view (read presentation) objects that handle interacting with the DOM of the webpage. The interactions between Model, View, and Controller Objects.",
+    description: "Built a set of Model (read data) objects that represent quiz questions, a Controller (read logic) object that handles basic actions involved in a quiz, and View (read presentation) objects that handle interacting with the DOM of the webpage. The interactions are between Model, View, and Controller Objects.",
     imageUrl: QApp,
     itemUrl: "https://github.com/phat14191/QuizzApp",
     pageUrl: "https://phat14191.github.io/QuizzApp/",
@@ -39,17 +39,17 @@ const projects = [
   },
   {
     itemName: "Learn Language",
-    tags: ["ReactJS", "Redux", "Route", "JavaScript", "JSON Web Token", "API", "JWT", "NodeJs", "Token Auth in Express", "MongoDB noSQL", "Pair Project"],
-    description: "Built a app in React that allows users to sign in, login, logout, view their profiles, and add/remove vocabulary to their list. Store out user info in state. Store our authorization token in Local Storage so that even if we refresh the page, we don't lose it with database MongoDB.",
+    tags: ["ReactJS", "Redux", "Route", "JavaScript", "JSON Web Token", "API", "JWT", "NodeJs", "Token Auth in Express", "MongoDB noSQL", "Pair Programming Project"],
+    description: "Vocabulary application where users can sign up, login, logout, view their profiles, and add/remove vocabulary words to lists. User stored in info in state and authorization token stored in Local Storage so that even if we refresh the page, we don't lose it with database MongoDB.",
     imageUrl: Vocabulary,
     pageUrl: "https://github.com/vschool-september-2017/learn-language",
     itemUrl: "https://github.com/vschool-september-2017/learn-language",
     isLayoutReversed: false
   },
   {
-    itemName: "Call an API Activity!",
+    itemName: "Call an API Activity",
     tags: ["JavaScript", "JSON", "AJAX", "Fetch API", "Callbacks"],
-    description: "Understanding JSON, AJAX, and calling an API. Type Github user name, click the button, it will load your profile picture, information on Github and showing some followers.",
+    description: "Activity for better understanding JSON, AJAX, and calling an API. Type a Github user name in the text box and click the button to watch it load a profile picture and additional Github information, followers, etc.",
     imageUrl: APIproject,
     itemUrl: "https://github.com/phat14191/Call-an-API-Activity",
     pageUrl: "https://phat14191.github.io/Call-an-API-Activity/",
@@ -58,7 +58,7 @@ const projects = [
   {
     itemName: "Penguins Vs Communists Project",
     tags: ["NodeJS", "JavaScript callbacks", "Logic programming"],
-    description: "Understanding functional programming concepts, objects/associative arrays, constructors by using NodeJS.",
+    description: "Tool for understanding functional programming concepts, objects/associative arrays and constructors, by using NodeJS.",
     imageUrl: NodeJS,
     pageUrl: "https://s3-us-west-1.amazonaws.com/phat14191/ComunistVSPenguins.png",
     itemUrl: "https://github.com/phat14191/Penguins-Vs-Communists-",

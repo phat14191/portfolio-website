@@ -4,10 +4,10 @@ import "./about.css"
 import TypedMessage from './TypedMessage';
 
 const typedMessageStrings = [
-  'I\'m Full Stack Web Developers',
-  ' with a passion for creating things and solving problem.',
-  'I build front-ends and back-ends in React and JavaScript',
-  'I always try to find something new to learn.',
+  'I\'m a Full Stack Web Developer',
+  'with a passion for creating things and solving problems.',
+  'I build front and back end React and JavaScript applications.',
+  'I’m always trying to learn something new.',
 ];
 
 class About extends React.Component {

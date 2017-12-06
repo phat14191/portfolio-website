@@ -139,8 +139,7 @@ class Portfolio extends React.Component {
                       <CardHeader title="Treehouse, Codecademy, Code School (40+ hours)" subtitle="Online coding courses in JavaScript"
                         actAsExpander={true} showExpandableButton={true}/>
                       <CardText expandable={true}>
-                          March 2017 - Present. Online JavaScript courses.
-
+                          March 2017 - Present. Online JavaScript courses. Emphasis in Web Design and Coding.
                           <div className="timeline-entries">
                             <div className="timeline-entry-chip">
                               <Chip>JavaScript</Chip>

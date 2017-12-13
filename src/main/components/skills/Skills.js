@@ -93,7 +93,7 @@ class Skills extends React.Component {
                                               </li>
                                               <li>
                                                 &lt;<span className="html-1">li</span>&gt;
-                                                <span className="html-2">CRUD functionaly</span>
+                                                <span className="html-2">CRUD functionally</span>
                                                 &lt;/<span className="html-1">li</span>&gt;
                                               </li>
                                             </ul>

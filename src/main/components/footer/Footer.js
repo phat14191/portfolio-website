@@ -7,7 +7,7 @@ import githubLogo from './images/github.png';
 
 const Linkedin = 'https://www.linkedin.com/in/phatnguyen141/';
 const MailTo = 'mailto:pvnguyen141@gmail.com';
-const Resume = 'https://s3-us-west-1.amazonaws.com/phatnguyen/phat-nguyen.pdf';
+const Resume = 'https://s3-us-west-1.amazonaws.com/phatnguyen/phatnguyen.pdf';
 const Github = 'https://github.com/phat14191';
 
 function Footer() {
